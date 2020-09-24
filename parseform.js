@@ -26,7 +26,7 @@ var req_opts = {
     method: "POST",
     path: "/upload"
 };
-/* dodaje na potrzeby git */
+/* dodaje na potrzeby  */
 var req = http.request(req_opts);
 
 req.on("response", function(response) {
