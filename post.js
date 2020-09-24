@@ -10,7 +10,7 @@ var req_opts = {
 };
 /* jescze cos dodam */
 /* a teraz to */
-/* to jest nowa linia */
+
 
 var req = http.request(req_opts);
 
