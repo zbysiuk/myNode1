@@ -9,6 +9,7 @@ var req_opts = {
     path: "/upload"
 };
 /* jescze cos dodam */
+/* cos zmienie */
 
 
 
