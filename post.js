@@ -9,7 +9,7 @@ var req_opts = {
     path: "/upload"
 };
 /* jescze cos dodam */
-/* a teraz to */
+
 
 
 var req = http.request(req_opts);
