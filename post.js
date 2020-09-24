@@ -11,7 +11,7 @@ var req_opts = {
 /* jescze cos dodam */
 /* a teraz to */
 /* to jest nowa linia */
-/* a to jeszcze jedzna linia */
+
 var req = http.request(req_opts);
 
 req.on("response", function(response) {
