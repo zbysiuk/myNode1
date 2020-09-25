@@ -9,8 +9,9 @@ var req_opts = {
     path: "/upload"
 };
 /* jescze cos dodam */
-/* a teraz to */
-/* to jest nowa linia */
+/* cos zmienie */
+
+
 
 var req = http.request(req_opts);
 
