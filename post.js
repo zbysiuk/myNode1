@@ -6,7 +6,7 @@ var req_opts = {
     host: "192.168.0.107",
     port: 8080,
     method: "POST",
-    path: "/upload"
+    path: "/"
 };
 /* jescze cos dodam */
 /* cos zmienie */

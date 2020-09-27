@@ -8,17 +8,17 @@ http.createServer(function (req, res) {
       res.write('Text uploaded');
       res.end();
     });
-  } else {
+  }/* else {
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.write('<form action="fileupload" method="post" enctype="multipart/form-data">');
     res.write('<input type="file" name="filetoupload"><br>');
     res.write('<input type="submit">');
     res.write('</form>');
     return res.end();
-  }
+  } */
 }).listen(8080);
 
-/* te dwa przyklady nalezy polaczyc */
+/* te dwa przyklady nalezy polaczyc 
 
 var req_opts = {
     host: "192.168.0.107",
@@ -26,7 +26,7 @@ var req_opts = {
     method: "POST",
     path: "/upload"
 };
-/* dodaje na potrzeby  */
+  
 var req = http.request(req_opts);
 
 req.on("response", function(response) {
@@ -47,4 +47,4 @@ req.on("error", function(err) {
 console.log("Wysyłanie danych...");
 req.write("text=Pierwsza linijka tekstu...\n");
 req.write("I ostania ;-)");
-req.end();
+req.end();*/
