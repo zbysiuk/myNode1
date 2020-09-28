@@ -3,7 +3,7 @@
 var http = require("http");
 
 var req_opts = {
-    host: "192.168.0.107",
+    host: "192.168.0.179",
     port: 8080,
     method: "POST",
     path: "/"
@@ -31,6 +31,6 @@ req.on("error", function(err) {
 });
 
 console.log("Wysyłanie danych...");
-req.write("text=Pierwsza linijka tekstu...\n");
-req.write("I ostania ;-)");
+req.write('<p>text=Pierwsza linijka tekstu..</p>');
+req.write('<p>I ostania ;-)</p>');
 req.end();
